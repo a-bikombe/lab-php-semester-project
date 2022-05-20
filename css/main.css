@@ -1,0 +1,18 @@
+body {
+	background-color: rgb(255, 238, 241);
+	padding: 1vw;
+}
+
+body * {
+	text-align: center;
+	margin: 0.5vw;
+}
+
+.input-block > label::before {
+	color: red;
+	content: "*";
+}
+
+.hidden {
+	display: none;
+}
